@@ -2,9 +2,9 @@ import React from "react";
 import Resultado from "./Resultado";
 import SearchBar from "./SearchBar";
 
-export function List(props) {
+export default function List(props) {
   function onSearch(text) {
-    console.log("text", text);
+    const { buscar } = props;
   }
 
   return (

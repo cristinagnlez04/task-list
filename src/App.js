@@ -1,12 +1,15 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { List } from "./list/List";
+import { Provider } from "react-redux";
 
 function App() {
   return (
-    <Container>
-      <List />
-    </Container>
+    <Provider>
+      <Container>
+        <List />
+      </Container>
+    </Provider>
   );
 }
 
