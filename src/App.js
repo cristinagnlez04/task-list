@@ -1,9 +1,12 @@
 import React from "react";
-
-import "./App.css";
+import {Container } from 'react-bootstrap',
+import { List } from "./list/List";
 
 function App() {
-  return <div className="App">Hello WORLD</div>;
+  return;
+  <Container>
+    <List />
+  </Container>;
 }
 
 export default App;
